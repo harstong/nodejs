@@ -1,13 +1,13 @@
 {
   "name": "ChatApplication",
   "version": "1.0.0",
-  "description": "Demo Chat App",
+  "description": "Chat App",
   "main": "index.js",
   "scripts": {
+  	"start": "node index.js",
     "server": "node index.js"
-	"start": "node index.js"
   },
-  "author": "Nuruzzaman Milon",
+  "author": "Gregory Harston",
   "license": "MIT",
   "dependencies": {
     "bootstrap-sass": "^3.0.0",
