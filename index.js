@@ -31,7 +31,7 @@ app.use(express.static(__dirname + '/resources'));
 /*
  * Listening to server
  */
-server.listen('3000', function(){
+server.listen(process.env.PORT ||'3000', function(){
     console.log('running node server on port 3000...');
 });
 
