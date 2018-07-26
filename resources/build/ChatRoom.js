@@ -19153,7 +19153,7 @@ var MessageBox = (function (_Component) {
 
     _get(Object.getPrototypeOf(MessageBox.prototype), 'constructor', this).call(this, props);
     this.state = {
-      messageList: [{ author: 'Mahbub', text: 'hello' }],
+      messageList: [{ author: 'Greg', text: 'Welcome' }],
       currentUser: ''
     };
     this.getCurrentUser();
